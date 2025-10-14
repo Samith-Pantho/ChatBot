@@ -1,0 +1,11 @@
+fastapi 
+uvicorn 
+requests 
+google-auth 
+dotenv 
+debugpy
+PyJWT
+pycryptodome 
+cryptography
+httpx
+python-dotenv

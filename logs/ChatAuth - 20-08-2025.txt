@@ -1,0 +1,76 @@
+2025-08-20 11:46:38 <======> ERROR <======> Failed to exchange code for tokens
+Traceback (most recent call last):
+  File "/app/Routes/GoogleAuthRoutes.py", line 33, in _ExchangeCodeForTokens
+    raise ValueError("Failed to exchange code for tokens")
+ValueError: Failed to exchange code for tokens
+
+
+****************************************************************************************************
+
+2025-08-20 11:46:38 <======> ERROR <======> 401: Failed to exchange code for tokens
+Traceback (most recent call last):
+  File "/app/Routes/GoogleAuthRoutes.py", line 33, in _ExchangeCodeForTokens
+    raise ValueError("Failed to exchange code for tokens")
+ValueError: Failed to exchange code for tokens
+
+Traceback (most recent call last):
+  File "/app/Routes/GoogleAuthRoutes.py", line 33, in _ExchangeCodeForTokens
+    raise ValueError("Failed to exchange code for tokens")
+ValueError: Failed to exchange code for tokens
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/Routes/GoogleAuthRoutes.py", line 44, in Login
+    tokens = await _ExchangeCodeForTokens(request.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/Routes/GoogleAuthRoutes.py", line 39, in _ExchangeCodeForTokens
+    raise HTTPException(status_code=401, detail=error_msg)
+fastapi.exceptions.HTTPException: 401: Failed to exchange code for tokens
+Traceback (most recent call last):
+  File "/app/Routes/GoogleAuthRoutes.py", line 33, in _ExchangeCodeForTokens
+    raise ValueError("Failed to exchange code for tokens")
+ValueError: Failed to exchange code for tokens
+
+
+
+****************************************************************************************************
+
+2025-08-20 12:48:11 <======> ERROR <======> Failed to exchange code for tokens
+Traceback (most recent call last):
+  File "/app/Routes/GoogleAuthRoutes.py", line 33, in _ExchangeCodeForTokens
+    raise ValueError("Failed to exchange code for tokens")
+ValueError: Failed to exchange code for tokens
+
+
+****************************************************************************************************
+
+2025-08-20 12:48:11 <======> ERROR <======> 401: Failed to exchange code for tokens
+Traceback (most recent call last):
+  File "/app/Routes/GoogleAuthRoutes.py", line 33, in _ExchangeCodeForTokens
+    raise ValueError("Failed to exchange code for tokens")
+ValueError: Failed to exchange code for tokens
+
+Traceback (most recent call last):
+  File "/app/Routes/GoogleAuthRoutes.py", line 33, in _ExchangeCodeForTokens
+    raise ValueError("Failed to exchange code for tokens")
+ValueError: Failed to exchange code for tokens
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/Routes/GoogleAuthRoutes.py", line 44, in Login
+    tokens = await _ExchangeCodeForTokens(request.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/Routes/GoogleAuthRoutes.py", line 39, in _ExchangeCodeForTokens
+    raise HTTPException(status_code=401, detail=error_msg)
+fastapi.exceptions.HTTPException: 401: Failed to exchange code for tokens
+Traceback (most recent call last):
+  File "/app/Routes/GoogleAuthRoutes.py", line 33, in _ExchangeCodeForTokens
+    raise ValueError("Failed to exchange code for tokens")
+ValueError: Failed to exchange code for tokens
+
+
+
+****************************************************************************************************
+
